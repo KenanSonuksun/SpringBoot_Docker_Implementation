@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11
+FROM openjdk:17
 EXPOSE 8080
 ARG JAR_FILE=target/DockerExample-0.0.1-SNAPSHOT.jar
 ADD ${JAR_FILE} application.jar
